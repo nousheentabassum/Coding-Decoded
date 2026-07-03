@@ -1,7 +1,7 @@
 class Solution {
     // TC : O(N)
     private int goodCount = 0;
-    public int goodNodes(TreeNode root) {
+    public int goodNodes(TreeNode root) { 
         goodNodesHelper(root, Integer.MIN_VALUE);
         return goodCount;
     }
