@@ -5,7 +5,7 @@ class Solution {
         Stack<Character> st2=new Stack<>();
         for(int i=0;i<s.length();i++){
             if(s.charAt(i)=='#'){
-                if(st1.size()>0){
+                if(st1.size()>0){      
                 st1.pop();
                 }
             }else{
